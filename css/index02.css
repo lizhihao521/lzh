@@ -1,0 +1,511 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*        导航栏开始       */
+.header{
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	background: #FFFFFF;
+	top: 0;
+	left: 0;
+	z-index: 998;
+}
+.nav{
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+}
+.left-logo{
+	width: 216px;
+	height: 30px;
+	padding-top: 30px;
+	display: inline-block;
+}
+.right-nav{
+	width: 800px;
+	height: 90px;
+	float: right;
+}
+.right-nav ul{
+	margin: 0;
+	padding: 0;
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+.right-nav ul li{
+	width: 80px;
+	height: 90px;
+	text-align: center;
+	float: left;
+	line-height: 90px;
+}
+.right-nav ul li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #000000;
+}
+.right-nav ul li:nth-child(3) a{
+	border-bottom: 3px solid red;
+	color: red;
+}
+.right-nav ul li a:hover{
+	border-bottom: 3px solid red;
+	color: red;
+}
+.right-footer{
+	width: 27%;
+	height: 90px;
+	float: right;
+	line-height: 90px;
+}
+.right-footer img{
+	width: 19px;
+	height: 19px;
+}
+
+/*         导航栏结束                        */
+
+
+/*         导航下面图片                     */
+
+.banner-no1{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-cont img{
+	width: 100%;
+	padding-top: 90px;
+}
+.banner-cont a{
+	display: inline-block;
+	width: 190px;
+	height: 60px;
+	color: #FFFFFF;
+	background: red;
+	border-radius:10px ;
+	text-align: center;
+	line-height: 60px;
+	position: absolute;
+	top: 80%;
+	left: 51%;
+	font-size:20px;
+	
+}
+.banner-cont a:hover{
+	opacity: 0.8;
+}
+/*        导航图片结束               */
+
+.banner-no2{
+	width: 100%;
+	height: 790px;
+	margin: 0 auto;
+}
+.banner-no2-cont{
+	width: 1200px;
+	/*height: 790px;*/
+	margin: 0 auto;
+}
+.banner-no2-cont p:first-child{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 30px;
+	color: #333333;
+	width: 100%;
+	text-align: center;
+}
+.banner-no2-cont p>span{
+	color: red;
+	font-size: 34px;
+}
+.banner-no2-cont .teach{
+	width: 100%;
+	display: block;
+	text-align: center;
+	color: #666;
+	font-size: 24px;
+}
+.banner-bg{
+	width: 1170px;
+	height: 480px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+
+.bg-01{
+	width: 33%;
+	height: 433px;
+		float: left;
+}
+.bg-001{
+	width: 100%;
+	height: 70%;
+	background: url(../img/images/teach/teach_change1.png)no-repeat;
+	background-position:center ;
+}
+.bg-001:hover{
+	background: url(../img/images/teach/teach_change11.png)no-repeat;
+	width: 100%;
+	height: 70%;
+	background-position:center ;
+}
+.bg-01 p{
+	text-align: center;
+	width: 100%;
+	height: 30%;
+	color: #333333;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+
+
+
+
+.bg-02{
+	width: 33%;
+	height: 433px;
+	float: left;
+}
+.bg-002{
+	width: 100%;
+	height: 70%;
+	background: url(../img/images/teach/teach_change2.png)no-repeat;
+	background-position:center ;
+}
+.bg-002:hover{
+	width: 100%;
+	height: 70%;
+	background: url(../img/images/teach/teach_change22.png)no-repeat;
+	background-position:center ;
+}
+.bg-02 p{
+	text-align: center;
+	width: 100%;
+	height: 30%;
+	color: #333333;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+
+
+
+.bg-03{
+	width: 33%;
+	height: 433px;
+	float: left;
+}
+.bg-003{
+	width: 100%;
+	height: 70%;
+	background: url(../img/images/teach/teach_change3.png)no-repeat;
+	background-position:center ;
+}
+.bg-003:hover{
+	width: 100%;
+	height: 70%;
+	background: url(../img/images/teach/teach_change33.png)no-repeat;
+	background-position:center ;
+}
+.bg-03 p{
+	text-align: center;
+	width: 100%;
+	height: 30%;
+	color: #333333;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+
+.bg-footer{
+	width: 190px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	margin: 0px auto;
+	color: #FFFFFF;
+	background-color: red;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.bg-footer:hover{
+	opacity: 0.8;
+}
+
+
+/*            中间第二部分背景图片                         */
+
+
+.banner-no3{
+	width: 100%;
+	height: 760px;
+	background: url(../img/images/tab3-bg.png)no-repeat;
+	background-position: center;
+}
+.banner-03{
+	width: 1200px;
+	margin: 0 auto;
+}
+.banner-bg01{
+	width: 100%;
+	text-align: center;
+	padding-top: 40px;
+	padding-top: 50px;
+}
+.banner-bg01 h2{
+	color: #333333;
+	font-size: 28px;
+	font-weight: normal;
+}
+.banner-bg01 h2 span{
+	font-size: 32px;
+	color: red;
+}
+
+.banner-bg02{
+	width: 100%;
+	text-align: center;
+	padding-top: 60px;
+}
+.banner-bg02 span:first-child{
+	margin: 0 auto;
+	background: url(../img/images/tixing1.png)no-repeat;
+	width: 80%;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+.banner-bg02 span:nth-child(2){
+	margin: 0 auto;
+	background: url(../img/images/tixing2.png)no-repeat;
+	margin-top: 10px;
+	width: 73%;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+.banner-bg02 span:nth-child(3){
+	margin: 0 auto;
+	background: url(../img/images/tixing3.png)no-repeat;
+	margin-top: 10px;
+	width: 66%;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+.banner-bg02 span:nth-child(4){
+	margin: 0 auto;
+	background: url(../img/images/tixing4.png)no-repeat;
+	margin-top: 10px;
+	width: 59%;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+.banner-bg02 span:nth-child(5){
+	margin: 0 auto;
+	background: url(../img/images/tixing5.png)no-repeat;
+	margin-top: 10px;
+	width: 52%;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+.banner-bg02 span:last-child{
+	margin: 0 auto;
+	background: url(../img/images/tixing6.png)no-repeat;
+	margin-top: 10px;
+	width: 45%;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+.tran:hover{
+	transition: all .75s;
+	transform-origin:center center;
+	/*-webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);*/
+    -webkit-transform: scale(1.2,1.1);
+    -moz-transform: scale(1.2,1.1);
+    -ms-transform: scale(1.2,1.1)
+}
+
+
+
+
+.banner-no3-footer{
+	width: 190px;
+	height: 60px;
+	background: red;
+	color: #FFFFFF;
+	border-radius:10px ;
+	text-align: center;
+	line-height: 60px;
+	font-size: 24px;
+	margin: 0 auto;
+	margin-top: 60px;
+	cursor: pointer;
+}
+.banner-no3-footer:hover{
+	opacity: 0.8;
+}
+/*          下面随屏滚动部分                     */
+
+.banner-no6{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	background: #4c4c4c;
+	/*z-index: 998;*/
+}
+.banner-conter{
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+#from1 p{
+	display: inline-block;
+}
+#from1 p:first-child{
+	margin-left: 120px;
+}
+#from1 p > input{
+	width: 210px;
+	height: 32px;
+	border: 1px solid #FFFFFF;
+	margin-left: 15px;
+	margin-top:14px ;
+	font-size: 16px;
+}
+#from1 #stage{
+	width: 90px;
+	height: 32px;
+	border: none;
+	margin-left: 5px;
+}
+#from1 #grade{
+	width: 90px;
+	height: 32px;
+	border: none;
+	margin-left: 5px;
+}
+#from1 #subject{
+	width: 90px;
+	height: 32px;
+	border: none;
+	margin-left: 5px;
+}
+
+
+#from1 .submit{
+	width: 125px;
+	height: 40px;
+	background: red;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+
+
+
+
+
+/*       footer底部                         */
+.footer{
+	width: 100%;
+	height: 60px;
+	background: #333;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 10px;
+}
+.footer p{
+	width: 100%;
+	margin: 0 auto;
+	line-height: 40px;
+	color: #DDDDDD;
+}
+.footer a{
+	color: #DDDDDD;
+}
+.submit:hover{
+	opacity: 0.8;
+}
+/*     底部结束                            */
+
+
+
+/*         右侧固定栏                           */
+.right-mnue1{
+	width: 60px;
+	height: 60px;
+	background: url(../img/images/wechatcode.png)no-repeat;
+	position: fixed;
+	top: 160px;
+	right: 100px;
+	cursor: pointer
+}
+.right-bg{
+	width: 116px;
+	height: 110px;
+	background: url(../img/images/codepic.png)no-repeat;
+	position: fixed;
+	top: 160px;
+	right: 170px;
+}
+.right-mnue2{
+	width: 60px;
+	height: 60px;
+	background: url(../img/images/lineserver.png)no-repeat;
+	position: fixed;
+	top: 230px;
+	right: 100px;
+	cursor: pointer
+}
+.right-mnue3{
+	width: 60px;
+	height: 60px;
+	background: url(../img/images/backtop.png)no-repeat;
+	position: fixed;
+	top: 300px;
+	right: 100px;
+	cursor: pointer
+}
+.right-mnue3:hover{
+	background: url(../img/images/gotop.png)no-repeat;
+}
+
+
+

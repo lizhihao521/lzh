@@ -1,0 +1,363 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*        导航栏开始       */
+.header{
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	background: #FFFFFF;
+	top: 0;
+	left: 0;
+	z-index: 998;
+}
+.nav{
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+}
+.left-logo{
+	width: 216px;
+	height: 30px;
+	padding-top: 30px;
+	display: inline-block;
+}
+.right-nav{
+	width: 800px;
+	height: 90px;
+	float: right;
+}
+.right-nav ul{
+	margin: 0;
+	padding: 0;
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+.right-nav ul li{
+	width: 80px;
+	height: 90px;
+	text-align: center;
+	float: left;
+	line-height: 90px;
+}
+.right-nav ul li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #000000;
+}
+.right-nav ul li:nth-child(4) a{
+	border-bottom: 3px solid red;
+	color: red;
+}
+.right-nav ul li a:hover{
+	border-bottom: 3px solid red;
+	color: red;
+}
+.right-footer{
+	width: 27%;
+	height: 90px;
+	float: right;
+	line-height: 90px;
+}
+.right-footer img{
+	width: 19px;
+	height: 19px;
+}
+
+/*         导航栏结束                        */
+
+
+/*                中间图片开始                         */
+.banner{
+	width: 100%;
+	/*height: 600px*/
+	margin: 0 auto;
+	padding-top: 90px;
+	position: relative;
+}
+.banner-pic{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.banner-pic img{
+	width: 100%;
+}
+
+.banner-conter a{
+	width: 190px;
+	height: 60px;
+	display: block;
+	text-align: center;
+	color: #FFFFFF;
+	background: red;
+	position: absolute;
+	font-size: 24px;
+	line-height: 60px;
+	border-radius: 10px;
+	top: 80%;
+	left: 66%;
+}
+.banner-conter a:hover{
+	opacity: 0.8;
+}
+
+/*               中间大图片结束                         */
+
+.banner-bg{
+	width: 100%;
+	height: 870px;
+	background: url(../img/images/flowchart/flowchartbg.png)no-repeat;
+	background-position: center center;
+}
+.banner-cont{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.banner-cont p{
+	width: 100%;
+	font-size: 30px;
+	color: #333333;
+	padding-top: 50px;
+}
+.banner-cont p>span{
+	font-size: 34px;
+	color: red;
+}
+.banner-cont>span{
+	width: 100%;
+	font-size: 24px;
+	display: block;
+	color: #666666;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+.banner-btn{
+	width: 190px;
+	height: 60px;
+	color: #FFFFFF;
+	background: red;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 60px;
+	margin: 0 auto;
+	font-size: 20px;
+	margin-top: 35px;
+	cursor: pointer;
+}
+.banner-btn:hover{
+	opacity: 0.8;
+}
+
+/*          背景图片结束                              */
+
+/*          多个hover开始                           */
+
+.banner-hr{
+	width: 100%;
+	height: 740px;
+}
+.banner-hr01{
+	width: 1200px;
+	margin: 0 auto;
+}
+.banner-hr01 p{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 30px;
+	width: 100%;
+}
+.banner-hr01 p>span{
+	font-size: 34px;
+	color: red;
+}
+.banner-hr01>span{
+	text-align: center;
+	width: 100%;
+	display: block;
+	font-size: 24px;
+	color: #666666;
+	margin-top: 40px;
+}
+
+.bannerbg{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.f1{
+	float: left;
+	margin-left:90px ;
+}
+.f1:hover{
+	transition: all 0.5s;
+	transform-origin:center center;
+	-webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+}
+.bg01{
+	margin-left: 20px;
+}
+
+
+.banner-hr-footer{
+	clear: both;
+	width: 190px;
+	height: 60px;
+	color: #FFFFFF;
+	background: red;
+	text-align: center;
+	margin: 0 auto;
+	border-radius:10px ;
+	line-height: 60px;
+	font-size: 20px;
+	margin-top: 120px;
+	cursor: pointer;
+}
+.banner-hr-footer:hover{
+	opacity: 0.8;
+}
+
+
+/*          下面随屏滚动部分                     */
+
+.banner-no6{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	background: #4c4c4c;
+	/*z-index: 998;*/
+}
+.banner-conter{
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+#from1 p{
+	display: inline-block;
+}
+#from1 p:first-child{
+	margin-left: 120px;
+}
+#from1 p > input{
+	width: 210px;
+	height: 32px;
+	border: 1px solid #FFFFFF;
+	margin-left: 15px;
+	margin-top:14px ;
+	font-size: 16px;
+}
+#from1 #stage{
+	width: 90px;
+	height: 32px;
+	border: none;
+	margin-left: 5px;
+}
+#from1 #grade{
+	width: 90px;
+	height: 32px;
+	border: none;
+	margin-left: 5px;
+}
+#from1 #subject{
+	width: 90px;
+	height: 32px;
+	border: none;
+	margin-left: 5px;
+}
+
+
+#from1 .submit{
+	width: 125px;
+	height: 40px;
+	background: red;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+
+
+
+
+
+/*       footer底部                         */
+.footer{
+	width: 100%;
+	height: 60px;
+	background: #333;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 10px;
+}
+.footer p{
+	width: 100%;
+	margin: 0 auto;
+	line-height: 40px;
+	color: #DDDDDD;
+}
+.footer a{
+	color: #DDDDDD;
+}
+.submit:hover{
+	opacity: 0.8;
+}
+/*     底部结束                            */
+
+
+
+/*         右侧固定栏                           */
+.right-mnue1{
+	width: 60px;
+	height: 60px;
+	background: url(../img/images/wechatcode.png)no-repeat;
+	position: fixed;
+	top: 160px;
+	right: 100px;
+	cursor: pointer
+}
+.right-bg{
+	width: 116px;
+	height: 110px;
+	background: url(../img/images/codepic.png)no-repeat;
+	position: fixed;
+	top: 160px;
+	right: 170px;
+}
+.right-mnue2{
+	width: 60px;
+	height: 60px;
+	background: url(../img/images/lineserver.png)no-repeat;
+	position: fixed;
+	top: 230px;
+	right: 100px;
+	cursor: pointer
+}
+.right-mnue3{
+	width: 60px;
+	height: 60px;
+	background: url(../img/images/backtop.png)no-repeat;
+	position: fixed;
+	top: 300px;
+	right: 100px;
+	cursor: pointer
+}
+.right-mnue3:hover{
+	background: url(../img/images/gotop.png)no-repeat;
+}
+
